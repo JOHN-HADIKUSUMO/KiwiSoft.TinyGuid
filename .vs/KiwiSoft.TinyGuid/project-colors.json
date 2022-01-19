@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1a57e82f-ea36-4991-949c-24a80bd703b1": {
+      "ProjectGuid": "1a57e82f-ea36-4991-949c-24a80bd703b1",
+      "DisplayName": "KiwiSoft.Test",
+      "ColorIndex": 0
+    },
+    "d9b7c46b-9084-40dd-b6ea-48260b3d439d": {
+      "ProjectGuid": "d9b7c46b-9084-40dd-b6ea-48260b3d439d",
+      "DisplayName": "KiwiSoft.TinyGuid",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
