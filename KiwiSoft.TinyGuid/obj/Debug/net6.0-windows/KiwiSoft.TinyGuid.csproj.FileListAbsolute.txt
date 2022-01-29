@@ -1,5 +1,0 @@
-D:\KiwiSoft.TinyGuid\KiwiSoft.TinyGuid\obj\Debug\net6.0-windows\KiwiSoft.TinyGuid.csproj.AssemblyReference.cache
-D:\KiwiSoft.TinyGuid\KiwiSoft.TinyGuid\obj\Debug\net6.0-windows\KiwiSoft.TinyGuid.GeneratedMSBuildEditorConfig.editorconfig
-D:\KiwiSoft.TinyGuid\KiwiSoft.TinyGuid\obj\Debug\net6.0-windows\KiwiSoft.TinyGuid.AssemblyInfoInputs.cache
-D:\KiwiSoft.TinyGuid\KiwiSoft.TinyGuid\obj\Debug\net6.0-windows\KiwiSoft.TinyGuid.AssemblyInfo.cs
-D:\KiwiSoft.TinyGuid\KiwiSoft.TinyGuid\obj\Debug\net6.0-windows\KiwiSoft.TinyGuid.csproj.CoreCompileInputs.cache

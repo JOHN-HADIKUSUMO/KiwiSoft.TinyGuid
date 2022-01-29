@@ -1,9 +1,10 @@
-﻿using System;
-
-namespace KiwiSoft.TinyGuid
+﻿namespace KiwiSoft.TinyGuid
 {
     public class GuidGenerator
     {
+        public GuidGenerator()
+        {
 
+        }
     }
 }
