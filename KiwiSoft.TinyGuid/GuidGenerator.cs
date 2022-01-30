@@ -1,4 +1,6 @@
-﻿namespace KiwiSoft.TinyGuid
+﻿using System.Net.NetworkInformation;
+
+namespace KiwiSoft.TinyGuid
 {
     public class GuidGenerator
     {
@@ -6,5 +8,7 @@
         {
 
         }
+
+
     }
 }
