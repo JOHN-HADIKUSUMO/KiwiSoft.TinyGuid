@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.Encodings;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.NetworkInformation;
@@ -25,16 +26,31 @@ namespace KiwiSoft.TinyGuid
             return address;
         }
 
+        public static decimal Power(int i)
+        {
+            if (i == 0) return 1;
+            if (i == 1) return 16;
+            decimal result = 16;
+            for(int j=2;j<=i;j++)
+            {
+                result = result * 16;
+            }
+            return result;
+        }
         public static decimal ConvertToDecimal(string hexaValue)
         {
-            int index = 0;
-            string[] temps = hexaValue.Split();
+            int j = 0;
+            decimal result = 0;
+            byte[] temps = Encoding.UTF8.GetBytes(hexaValue);
             for(int i = temps.Length - 1; i >= 0; i--)
             {
-                KeyValuePair<int,string> keyValuePair = Maps.Hexa.Where(w => w.Value == temps[i]).FirstOrDefault();
-                decimal result = keyValuePair.Key ^ index;
+                string keyToFind = Encoding.UTF8.GetString(new byte[] { temps[i] });
+                KeyValuePair<int,string> keyValuePair = Maps.Hexa.Where(w => w.Value == keyToFind).FirstOrDefault();
+                decimal count = Convert.ToDecimal(keyValuePair.Key) * Power(j);
+                result += keyValuePair.Key * count;
+                j++;
             }
-            return 0;
+            return result;
         }
     }
 }
