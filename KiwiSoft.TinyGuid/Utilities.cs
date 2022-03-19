@@ -47,7 +47,7 @@ namespace KiwiSoft.TinyGuid
                 string keyToFind = Encoding.UTF8.GetString(new byte[] { temps[i] });
                 KeyValuePair<int,string> keyValuePair = Maps.Hexa.Where(w => w.Value == keyToFind).FirstOrDefault();
                 decimal count = Convert.ToDecimal(keyValuePair.Key) * Power(j);
-                result += keyValuePair.Key * count;
+                result += count;
                 j++;
             }
             return result;
