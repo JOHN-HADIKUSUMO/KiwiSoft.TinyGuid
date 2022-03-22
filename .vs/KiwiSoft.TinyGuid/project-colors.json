@@ -20,7 +20,17 @@
       "ProjectGuid": "ff1e8feb-f332-45c6-be78-0f10616538b7",
       "DisplayName": "KiwiSoft.TinyGuid",
       "ColorIndex": 2
+    },
+    "4f250cbb-f1eb-4cdf-8735-22eedb597b1c": {
+      "ProjectGuid": "4f250cbb-f1eb-4cdf-8735-22eedb597b1c",
+      "DisplayName": "KiwiSoft.Console",
+      "ColorIndex": 3
+    },
+    "8d5a6add-8035-430e-8212-0a15351a94e1": {
+      "ProjectGuid": "8d5a6add-8035-430e-8212-0a15351a94e1",
+      "DisplayName": "KiwiSoft.Application",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }

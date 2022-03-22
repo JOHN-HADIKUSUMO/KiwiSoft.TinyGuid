@@ -26,7 +26,7 @@ namespace KiwiSoft.TinyGuid
             return address;
         }
 
-        public static decimal Power(int i)
+        private static decimal Power(int i)
         {
             if (i == 0) return 1;
             if (i == 1) return 16;
@@ -46,11 +46,18 @@ namespace KiwiSoft.TinyGuid
             {
                 string keyToFind = Encoding.UTF8.GetString(new byte[] { temps[i] });
                 KeyValuePair<int,string> keyValuePair = Maps.Hexa.Where(w => w.Value == keyToFind).FirstOrDefault();
-                decimal count = Convert.ToDecimal(keyValuePair.Key) * Power(j);
+                decimal count = (decimal)keyValuePair.Key * (decimal)Math.Pow(16,j);
                 result += count;
                 j++;
             }
             return result;
+        }
+
+        public static string ConvertTo65Base(decimal number)
+        {
+            if (number < 65) return Maps.Special[(int)number];
+
+            return string.Empty;
         }
     }
 }
