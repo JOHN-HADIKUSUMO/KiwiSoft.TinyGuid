@@ -1,4 +1,5 @@
-﻿using KiwiSoft.TinyGuid;
+﻿using System.Collections;
+using KiwiSoft.TinyGuid;
 
 namespace KiwiSoft.Application
 {
@@ -6,11 +7,18 @@ namespace KiwiSoft.Application
     {
         static void Main(string[] args)
         {
-            GuidGenerator guidGenerator = new GuidGenerator();  
+            HashSet<string> temp = new HashSet<string>();
+            GuidGenerator guidGenerator = new GuidGenerator();
+            int loop = 0;
+            int count = 0;
             while(true)
             {
-                Console.WriteLine(guidGenerator.UUID());
-                Task.Delay(500);
+                string uuid = guidGenerator.UUID();
+                bool check = temp.Add(uuid);
+                if(!check) count++;
+                Console.WriteLine(String.Format("{0:000000000}",loop) + " " + uuid + (check?"":" is duplicated " + count));
+                Task.Delay(50);
+                loop++;
             }
             Console.ReadLine();
         }
