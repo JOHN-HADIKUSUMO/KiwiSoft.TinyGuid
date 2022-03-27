@@ -6,13 +6,12 @@ namespace KiwiSoft.Application
     {
         static void Main(string[] args)
         {
-            string address = Utilities.GetMACAddress();
-            double result = Utilities.ConvertToDecimal(address);
-            string babe = Utilities.ConvertTo65Base(result + Environment.TickCount);
-            Console.WriteLine(babe);
-            //Utilities.ConvertTo65Base(result);
-            //Console.WriteLine(address);
-            //Console.WriteLine(result);
+            GuidGenerator guidGenerator = new GuidGenerator();  
+            while(true)
+            {
+                Console.WriteLine(guidGenerator.UUID());
+                Task.Delay(500);
+            }
             Console.ReadLine();
         }
     }
