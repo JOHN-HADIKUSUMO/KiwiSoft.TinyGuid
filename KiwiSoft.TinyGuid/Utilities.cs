@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace KiwiSoft.TinyGuid
 {
-    public static class Utilities
+    internal static class Utilities
     {
         public static string GetMACAddress()
         {

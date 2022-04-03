@@ -1,6 +1,6 @@
 ﻿namespace KiwiSoft.TinyGuid
 {
-    public static class Maps
+    internal static class Maps
     {
         public static Dictionary<int, string> Hexa
         {

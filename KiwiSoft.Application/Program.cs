@@ -9,17 +9,16 @@ namespace KiwiSoft.Application
         {
             HashSet<string> temp = new HashSet<string>();
             GuidGenerator guidGenerator = new GuidGenerator();
-            int loop = 0;
             int count = 0;
-            while(true)
+            for(int i=0;i<100000000;i++)
             {
                 string uuid = guidGenerator.UUID();
                 bool check = temp.Add(uuid);
                 if(!check) count++;
-                Console.WriteLine(String.Format("{0:000000000}",loop) + " " + uuid + (check?"":" is duplicated " + count));
+                Console.WriteLine(String.Format("{0:000000000}", i) + " " + uuid);
                 Task.Delay(50);
-                loop++;
             }
+            Console.WriteLine("Total duplication => " + count);
             Console.ReadLine();
         }
     }
