@@ -10,7 +10,27 @@
       "ProjectGuid": "d9b7c46b-9084-40dd-b6ea-48260b3d439d",
       "DisplayName": "KiwiSoft.TinyGuid",
       "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "ff1e8feb-f332-45c6-be78-0f10616538b7": {
+      "ProjectGuid": "ff1e8feb-f332-45c6-be78-0f10616538b7",
+      "DisplayName": "KiwiSoft.TinyGuid",
+      "ColorIndex": 2
+    },
+    "4f250cbb-f1eb-4cdf-8735-22eedb597b1c": {
+      "ProjectGuid": "4f250cbb-f1eb-4cdf-8735-22eedb597b1c",
+      "DisplayName": "KiwiSoft.Console",
+      "ColorIndex": 3
+    },
+    "8d5a6add-8035-430e-8212-0a15351a94e1": {
+      "ProjectGuid": "8d5a6add-8035-430e-8212-0a15351a94e1",
+      "DisplayName": "KiwiSoft.Application",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 5
 }
