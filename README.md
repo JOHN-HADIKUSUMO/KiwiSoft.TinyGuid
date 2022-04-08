@@ -16,7 +16,7 @@
 
 the output would look like this
 
-![alt text](https://github.com/JOHN-HADIKUSUMO/KiwiSoft.TinyGuid/blob/main/Capture.PNG)
+![alt text](https://raw.github.com/JOHN-HADIKUSUMO/KiwiSoft.TinyGuid/blob/main/Capture.PNG)
 
 The output may consist of the combination alphanumeric plus several special characters like "-", "_" or ".". If you only want alphanumeric on the output
 you must set the parameter value to "true" on the UUID method as seen below.
