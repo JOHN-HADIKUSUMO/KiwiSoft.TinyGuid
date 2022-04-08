@@ -11,18 +11,34 @@
     <Company>KiwiSoft</Company>
     <Description>To create unique Ids.</Description>
     <RepositoryUrl>https://github.com/JOHN-HADIKUSUMO/KiwiSoft.TinyGuid</RepositoryUrl>
-    <PackageTags>kiwisoft,C#,.NET 6, unique id generator</PackageTags>
+    <PackageTags>kiwisoft,C#,.NET 6, unique id generator, UUID, GUID, Identity</PackageTags>
     <Copyright>MIT License</Copyright>
     <NeutralLanguage>en-AT</NeutralLanguage>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>BSD-2-Clause OR MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.2</AssemblyVersion>
+    <FileVersion>1.0.1.2</FileVersion>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/JOHN-HADIKUSUMO/KiwiSoft.TinyGuid</PackageProjectUrl>
+    <PackageIcon>KiwiSoft.PNG</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\KiwiSoft.PNG">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
