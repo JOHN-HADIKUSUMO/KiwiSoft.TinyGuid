@@ -19,7 +19,7 @@ the output would look like this
 ![alt text](https://github.com/JOHN-HADIKUSUMO/KiwiSoft.TinyGuid/blob/main/Capture.PNG)
 
 The output may consist of the combination alphanumeric plus several special characters like "-", "_" or ".". If you only want alphanumeric on the output
-you must define the parameter value "true" on the UUID method.
+you must set the parameter value to "true" on the UUID method as seen below.
 
 ```C#
   using KiwiSoft.TinyGuid;
