@@ -28,7 +28,7 @@ you must define the parameter value "true" on the UUID method.
     static void Main(string[] args)
     {
       GuidGenerator guidGenerator = new GuidGenerator();
-      string uuid = guidGenerator.UUID(false);
+      string uuid = guidGenerator.UUID(true);
       Console.WriteLine(uuid);
       Console.ReadLine();
     }
