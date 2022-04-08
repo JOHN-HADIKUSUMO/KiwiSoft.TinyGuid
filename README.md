@@ -1,5 +1,5 @@
 # KiwiSoft.TinyGuid
-#### This nuget package is meant to be used to generate unique id. 
+#### This nuget package is meant to be used to generate unique id. The following code below is the simplest implementation of this package.
 ```C#
   using KiwiSoft.TinyGuid;
   class Program
