@@ -13,3 +13,7 @@
     }
   }
 ```
+
+the output would look like this
+
+![alt text](https://github.com/JOHN-HADIKUSUMO/KiwiSoft.TinyGuid/blob/main/Capture.PNG)
